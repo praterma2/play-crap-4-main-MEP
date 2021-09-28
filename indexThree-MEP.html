@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="codeTwo.js"></script>
+    
+    <title>
+        Prof. Prater's CSC102 Webpage
+    </title>
+    <script>
+        
+        var wins = 0;
+        var loss = 0;
+        var tie = 0;
+    </script>
+
+    <!--This changes the background color-->
+    <style>
+        body{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <img src="UATspaceLogo-1.jpg">
+    <h1>
+        UAT Space Program
+    </h1>
+    <script>
+        document.write("This is a test of the document.write function");
+    </script>
+    
+    <p>
+        This is a test of the paragraph tags.
+    </p> <br>
+   
+    <button onclick="btrblastoff();">
+        Start
+    </button>
+    <!--the button it just a element of a button that you would press-->
+    <button>
+        Stop
+    </button>
+   
+    <br>
+    <br>
+    <p id="countdownTimer">Starting countdownTimer...</p>
+    <p id="countDownTimer">waiting to start...</p>
+    
+    <button onclick="playCraps();"> playCrap</button>
+    <p id="die1Res">Waiting on die1...</p>
+    <p id="die2Res">Waiting on die2...</p>
+    <p id="sumsRes">Waiting for sum...</p>
+    <p id="finalRes">Waiting on final...</p>
+    <p>Wins are: <div id="winsRes">0</div></p>
+    <p>Loss are: <div id="lossRes">0</div></p>
+    <p>Ties are: <div id="tieRes">0</div></p>
+    
+</body>
+
+</html>
